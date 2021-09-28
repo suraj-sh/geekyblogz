@@ -27,9 +27,9 @@ SECRET_KEY = 'n%npk*%^%6u3dc7)lzmgqemq#5%hfy0_3)77)ff_0-_q&**nm_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-PREPEND_WWW = True
-BASE_URL = "https://www.geekyblogz.herokuapp.com"
-ALLOWED_HOSTS = ['geekyblogz.herokuapp.com']
+#PREPEND_WWW = True
+#BASE_URL = "https://www.geekyblogz.herokuapp.com"
+ALLOWED_HOSTS = []
 
 SITE_ID = 1
 SECURE_HSTS_SECONDS = 31536000
