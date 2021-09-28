@@ -29,7 +29,7 @@ DEBUG = False
 
 #PREPEND_WWW = True
 #BASE_URL = "https://www.geekyblogz.herokuapp.com"
-ALLOWED_HOSTS = ['geekyblogz.herokuapp.com']
+ALLOWED_HOSTS = ['www.geekyblogz.herokuapp.com']
 
 SITE_ID = 1
 #SECURE_HSTS_SECONDS = 31536000
@@ -143,6 +143,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 # E-Mail
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # For sending mails to smtp server
