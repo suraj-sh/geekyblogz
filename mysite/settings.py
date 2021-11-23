@@ -29,7 +29,7 @@ DEBUG = False
 
 #PREPEND_WWW = True
 #BASE_URL = "https://www.geekyblogz.herokuapp.com"
-ALLOWED_HOSTS = ['geekyblogz.herokuapp.com']
+ALLOWED_HOSTS = ['https://geekyblogz.herokuapp.com']
 
 SITE_ID = 1
 SECURE_HSTS_SECONDS = 31536000
